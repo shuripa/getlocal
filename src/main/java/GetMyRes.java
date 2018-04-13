@@ -8,7 +8,7 @@ public class GetMyRes {
         String s, s1;
         ResourceBundle res = ResourceBundle.getBundle("text", locale);
 
-        String [] code = {"ISO-8859-1", "windows-1251", "UTF-8", "US-ASCII"};
+        String [] code = {"ISO-8859-1", "ISO-8859-5", "windows-1251", "UTF-8", "US-ASCII"};
 
         for (String cin : code){
             for (String cto: code){
