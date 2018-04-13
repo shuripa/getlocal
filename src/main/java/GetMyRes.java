@@ -4,12 +4,18 @@ import java.util.ResourceBundle;
 
 public class GetMyRes {
     public String getMyHello(Locale locale) throws UnsupportedEncodingException {
-//        byte[] b;
-        String s;
-//        b = res.getString("hello").getBytes("ISO-8859-1");
-//        s = new String(b,("windows-1251"));
-//        System.out.println("Получение ресурса");
+        byte[] b;
+        String s, s1;
         ResourceBundle res = ResourceBundle.getBundle("text", locale);
+
+        String [] code = {"ISO-8859-1", "windows-1251", "UTF-8", "US-ASCII"};
+
+        for (String cin : code){
+            for (String cto: code){
+                System.out.println("" + cin + " to " + cto + " : " + new String(res.getString("hello").getBytes(cin),cto));
+            }
+        }
+
         s = res.getString("hello");
         return s;
     }
