@@ -1,4 +1,4 @@
 [![CircleCI](https://circleci.com/gh/shuripa/getlocal/tree/master.svg?style=svg)](https://circleci.com/gh/shuripa/getlocal/tree/master)
 
-Настройки кодировок для .properties, pom.xml и compiler.xml для коректной работы circle.ci
+РќР°СЃС‚СЂРѕР№РєРё РєРѕРґРёСЂРѕРІРѕРє РґР»СЏ .properties, pom.xml Рё compiler.xml РґР»СЏ РєРѕСЂРµРєС‚РЅРѕР№ СЂР°Р±РѕС‚С‹ circle.ci
 
