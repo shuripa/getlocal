@@ -8,6 +8,6 @@ public class GetMyResTest {
 
     @Test
     public void getMyHello() throws UnsupportedEncodingException {
-        assertEquals("Привет ресурс!", new GetMyRes().getMyHello(new Locale("ru")));
+        assertEquals("РџСЂРёРІРµС‚ СЂРµСЃСѓСЂСЃ!", new GetMyRes().getMyHello(new Locale("ru")));
     }
 }

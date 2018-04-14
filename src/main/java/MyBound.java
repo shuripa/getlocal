@@ -3,7 +3,7 @@ import java.util.Locale;
 
 public class MyBound {
     public static void main(String[] args) throws UnsupportedEncodingException {
-        System.out.println("Привет проект!");
+        System.out.println("РџСЂРёРІРµС‚ РїСЂРѕРµРєС‚!");
 
         System.out.println(new GetMyRes().getMyHello(new Locale("en")));
         System.out.println(new GetMyRes().getMyHello(new Locale("xx")));

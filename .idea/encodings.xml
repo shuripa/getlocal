@@ -2,6 +2,9 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="ISO-8859-5">
     <file url="file://$PROJECT_DIR$/../getlocal/Readme.md" charset="UTF-8" />
-    <file url="PROJECT" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/../getlocal/src/main/java/GetMyRes.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../getlocal/src/main/java/Log.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../getlocal/src/test/java/GetMyResTest.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

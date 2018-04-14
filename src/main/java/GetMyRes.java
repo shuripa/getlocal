@@ -8,7 +8,7 @@ public class GetMyRes {
         String s;
         ResourceBundle res = ResourceBundle.getBundle("text", locale);
 
-//      Код для создания массива проверочных преобразований кодировок
+//      РљРѕРґ РґР»СЏ СЃРѕР·РґР°РЅРёСЏ РјР°СЃСЃРёРІР° РїСЂРѕРІРµСЂРѕС‡РЅС‹С… РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёР№ РєРѕРґРёСЂРѕРІРѕРє
 //        String [] code = {"ISO-8859-1", "ISO-8859-5", "windows-1251", "UTF-8", "US-ASCII"};
 //
 //        for (String cin : code){
